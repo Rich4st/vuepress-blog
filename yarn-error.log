@@ -1,0 +1,36 @@
+Arguments: 
+  D:\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Maven\apache-maven-3.6.3\bin;F:\Tencent Files\2357823678\apache-tomcat-9.0.62\bin;E:\mysql\mysql-8.0.25-winx64\bin;D:\mysql\bin;D:\mysql-8.0.26-winx64\bin;D:\Android\Android\Sdk\platform-tools;D:\Android\Android\Sdk\platform-tools\;C:\Program Files\Java\jdk1.8.0_211\bin\keytool.exe;C:\Program Files\dotnet\;D:\git\Git\cmd;D:\sqlite\sqlite-tools-win32-x86-3380300;F:\Tencent Files\2357823678\apache-tomcat-9.0.62\bin;C:\Program Files\PowerShell\7\;C:\Users\lilegg\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\nodejs\;D:\nodejs\node_cache;D:\nodejs\node_global;D:\Scoop\shims;C:\Users\lilegg\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\lilegg\AppData\Local\Microsoft\WindowsApps;C:\Users\lilegg\AppData\Local\Programs\Python\Python37;F:\IDEA\IntelliJ IDEA 2020.3.3\bin;D:\VS\Microsoft VS Code\bin;C:\Users\lilegg\AppData\Local\Programs\oh-my-posh\bin;C:\Users\lilegg\AppData\Local\GitHubDesktop\bin;C:\Users\lilegg\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
